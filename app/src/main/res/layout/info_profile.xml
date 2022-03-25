@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:background="@color/orange_700"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="209dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="570dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/name_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="495dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/phone_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_above="@+id/email_profile"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginBottom="47dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="12345" />
+
+    <TextView
+        android:id="@+id/email_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="286dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="hjh@" />
+</RelativeLayout>
